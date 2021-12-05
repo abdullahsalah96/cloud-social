@@ -1,5 +1,6 @@
 import './App.css';
-import NavigationBar from "./Components/NavigationBar/NavigationBar"
+import NavigationBar from "./Components/NavigationBar/NavigationBar";
+import CreatePostCard from './Components/CreatePostCard/CreatePostCard';
 
 function App() {
   return (
