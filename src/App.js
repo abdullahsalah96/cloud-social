@@ -2,7 +2,7 @@ import './App.css';
 import NavigationBar from "./Components/NavigationBar/NavigationBar";
 import CreatePostCard from "./Components/CreatePostCard/CreatePostCard";
 import PostsCard from "./Components/PostsCards/PostsCards";
-import Post from "./Model/Post"
+const Post = require("./Model/Post");
 
 function App() {
   let posts = [];
