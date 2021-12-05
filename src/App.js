@@ -6,7 +6,10 @@ function App() {
   return (
     <div className="App">
       <NavigationBar></NavigationBar>
-      <h1>Hello World</h1>
+      <div className="views-container">
+        <CreatePostCard></CreatePostCard>
+        <h1>Hello World</h1>
+      </div>
     </div>
   );
 }
